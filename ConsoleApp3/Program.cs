@@ -7,6 +7,7 @@ g.ctrl3();
 
 //stworz instacje przedmiotu - rubycrystal
 RubyCrystal rb = new RubyCrystal();
+Bami B = new Bami();
 //sprawdz ile ma hp garen
 g.showHP();
 //kup mu item
@@ -17,7 +18,6 @@ g.showHP();
 g.buyItem(rb);
 //sprawdz ile ma teraz hp
 g.showHP();
-Bami B = new Bami();
 g.buyItem(B);
 g.showHP();
 
